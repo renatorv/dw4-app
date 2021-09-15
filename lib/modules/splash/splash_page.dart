@@ -17,11 +17,6 @@ class SplashPage extends StatelessWidget {
           ),
         ),
         child: Image.asset('assets/images/logo.png'),
-        // child: Center(
-        //   child: Text(
-        //     RemoteConfig.instance.getString('api_token'),
-        //   ),
-        // ),
       ),
     );
   }
