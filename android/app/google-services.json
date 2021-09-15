@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1048830412796",
+    "project_id": "dw4-app",
+    "storage_bucket": "dw4-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048830412796:android:ab4a172975404bedd79479",
+        "android_client_info": {
+          "package_name": "br.com.dartweek.app_filmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048830412796-cjeckca4qqem9ci5u60svl9a3flu8f45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.dartweek.app_filmes",
+            "certificate_hash": "257ca9d9d10a4eb1fad1ecd2ceea942b355775a8"
+          }
+        },
+        {
+          "client_id": "1048830412796-rhjlphs5jcve9uug67pd2rqadh5kjft4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClCrx4zNcPZC-p9c62XLoe_zccEHHB4To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048830412796-rhjlphs5jcve9uug67pd2rqadh5kjft4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
