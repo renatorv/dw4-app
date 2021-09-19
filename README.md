@@ -27,4 +27,9 @@ colocar o arquivo google-services.json
 https://firebase.flutter.dev/
 ===================================================================================================
 
-parei em 31 minutos
+RESUMO REATIVIDADE:
+aula 2 em 52 minutos
+
+===================================================================================================
+
+parei aula 2 em 1h e 11 min
