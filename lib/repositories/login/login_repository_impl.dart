@@ -16,6 +16,10 @@ class LoginRepositoryImpl implements LoginRepository {
         idToken: googleAuth.idToken,
       );
 
+      print('\nCREDENCIAIS');
+      print(googleAuth.accessToken);
+      print(googleAuth.idToken);
+
       return FirebaseAuth.instance.signInWithCredential(credential);
     }
 
