@@ -1,3 +1,4 @@
+import 'package:app_filmes/ui/filmes_app_icons_icons.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -9,7 +10,8 @@ class HomePage extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.movie), label: 'Filmes'),
-          BottomNavigationBarItem(icon: Icon(Icons.movie), label: 'Favoritos'),
+          BottomNavigationBarItem(
+              icon: Icon(FilmesAppIcons.heart_empty), label: 'Favoritos'),
           BottomNavigationBarItem(
               icon: Icon(Icons.logout_outlined), label: 'Sair'),
         ],
