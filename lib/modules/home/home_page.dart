@@ -1,5 +1,7 @@
 import 'package:app_filmes/ui/filmes_app_icons_icons.dart';
+import 'package:app_filmes/ui/theme_extensions.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -7,7 +9,12 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: context.themeRed,
+        unselectedItemColor: Colors.grey,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.movie), label: 'Filmes'),
           BottomNavigationBarItem(
@@ -16,7 +23,9 @@ class HomePage extends StatelessWidget {
               icon: Icon(Icons.logout_outlined), label: 'Sair'),
         ],
       ),
-      body: Container(),
+      body: Navigator(
+        key: Get.nestedKey(1),
+      ),
     );
   }
 }

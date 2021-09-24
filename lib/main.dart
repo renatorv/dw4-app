@@ -1,6 +1,7 @@
 import 'package:app_filmes/modules/home/home_module.dart';
 import 'package:app_filmes/modules/login/login_module.dart';
 import 'package:app_filmes/modules/splash/splash_module.dart';
+import 'package:app_filmes/ui/filmes_app_ui_config.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/material.dart';
@@ -21,10 +22,8 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       initialBinding: ApplicationBindings(),
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      title: FilmesAppUiConfig.title,
+      theme: FilmesAppUiConfig.theme,
       getPages: [
         ...SplashModule().routers,
         ...LoginModule().routers,
