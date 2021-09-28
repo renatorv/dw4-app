@@ -1,4 +1,5 @@
 import 'package:app_filmes/application/modules/module.dart';
+import 'package:app_filmes/modules/home/home_bindings.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
@@ -10,6 +11,7 @@ class HomeModule extends Module {
     GetPage(
       name: '/home',
       page: () => HomePage(),
+      binding: HomeBindings(),
     ),
   ];
 }

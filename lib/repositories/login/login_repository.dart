@@ -4,4 +4,6 @@ abstract class LoginRepository {
 
   Future<UserCredential> login();
 
+  Future<void> logout();
+
 }
