@@ -38,6 +38,8 @@ GETX DEVE FICAR SOMENTE NAS CAMADAS DE: PAGE & CONTROLLER
 
 parei aula 3 em 57 minutos
 
+parei aula 4 em 24 minutos
+
 ===========================================================================================================
 
 ERROS:
