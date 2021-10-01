@@ -1,6 +1,3 @@
-import 'dart:ffi';
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -27,9 +24,8 @@ class MoviesHeader extends StatelessWidget {
             width: Get.width * .9,
             child: TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(30),
-                ),
+                border:
+                    OutlineInputBorder(borderRadius: BorderRadius.circular(30)),
                 fillColor: Colors.white,
                 filled: true,
                 labelText: 'Procurar filmes',
